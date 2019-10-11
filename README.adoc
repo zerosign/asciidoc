@@ -1,0 +1,16 @@
+asciidoc
+--------
+
+Asciidoc parser library for ocaml. It uses angstrom as its own parser This library includes :
+
+- parser
+- runtime ast
+- ast traversal for types
+
+
+Syntax References
+=================
+
+- https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Syntax Reference #1]
+
+- https://asciidoctor.org/docs/user-manual/#comparison-by-example[Unit Syntax]

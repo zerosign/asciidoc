@@ -1,0 +1,12 @@
+(executables
+ (libraries alcotest asciidoc)
+ (modules test_asciidoc)
+ (names test_asciidoc))
+
+(alias
+ (name runtest)
+ (package asciidoc)
+ (deps
+  (:< test_asciidoc.exe))
+ (action
+  (run %{<})))
